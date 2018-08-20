@@ -1,0 +1,15 @@
+# NERDTree
+[[plugins]]
+repo = "scrooloose/nerdtree"
+hook_add = "map <C-n> :NERDTreeToggle<CR>"
+
+[[plugins]]
+repo = "Xuyuanp/nerdtree-git-plugin"
+
+[[plugins]]
+repo = "jistr/vim-nerdtree-tabs"
+
+
+# Git diff
+[[plugins]]
+repo = "airblade/vim-gitgutter"
