@@ -6,6 +6,9 @@ set softtabstop=2
 set autoindent
 set smartindent
 
+" Syntax Hightlight
+autocmd BufNewFile,BufRead *.{html,htm,vue*} set filetype=html
+
 " Dein.vim
 let s:dein_dir = expand("~/.local/share/dein")
 let s:dein_repo = s:dein_dir . "/repos/github.com/Shougo/dein.vim"
