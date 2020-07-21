@@ -1,0 +1,142 @@
+[[plugins]]
+repo = "sgur/vim-editorconfig"
+
+[[plugins]]
+repo = "jacoborus/tender.vim"
+hook_add = '''
+  "colorscheme tender
+  augroup TransparentBG
+    autocmd!
+    autocmd Colorscheme * highlight Normal ctermbg=none
+    autocmd Colorscheme * highlight NonText ctermbg=none
+    autocmd Colorscheme * highlight LineNr ctermbg=none
+    autocmd Colorscheme * highlight Folded ctermbg=none
+    autocmd Colorscheme * highlight EndOfBuffer ctermbg=none
+  augroup END
+'''
+
+[[plugins]]
+repo = "arcticicestudio/nord-vim"
+hook_add = '''
+  "colorscheme nord
+'''
+
+#[[plugins]]
+#repo = "flrnprz/candid.vim"
+#hook_add = '''
+#  colorscheme candid
+#  augroup TransparentBG
+#    autocmd!
+#    autocmd Colorscheme * highlight Normal ctermbg=none
+#    autocmd Colorscheme * highlight NonText ctermbg=none
+#    autocmd Colorscheme * highlight LineNr ctermbg=none
+#    autocmd Colorscheme * highlight Folded ctermbg=none
+#    autocmd Colorscheme * highlight EndOfBuffer ctermbg=none
+#  augroup END
+#'''
+
+[[plugins]]
+repo = "itchyny/lightline.vim"
+hook_source = '''
+  function! NearestMethodOrFunction() abort
+    return get(b:, 'vista_nearest_method_or_function', '')
+  endfunction
+'''
+
+hook_add = '''
+  autocmd VimEnter * call vista#RunForNearestMethodOrFunction()
+
+  let g:lightline = {
+    \ 'colorscheme': 'tender',
+    \ 'active': {
+    \   'left': [ ['mode' ,'paste'], ['readonly', 'relativepath', 'modified', 'method'] ]
+    \   },
+    \ 'component_function': {
+    \   'method': 'NearestMethodOrFunction'
+    \   }
+    \ }
+'''
+
+[[plugins]]
+repo = "simeji/winresizer"
+
+# NERDTree
+[[plugins]]
+repo = "scrooloose/nerdtree"
+hook_add = '''
+  map <Leader>r :NERDTreeFind<CR>
+'''
+
+[[plugins]]
+repo = "Xuyuanp/nerdtree-git-plugin"
+
+[[plugins]]
+repo = "jistr/vim-nerdtree-tabs"
+hook_add = "map <C-n> <plug>NERDTreeTabsToggle<CR>"
+
+# Git diff
+[[plugins]]
+repo = "airblade/vim-gitgutter"
+
+# Git messenger
+[[plugins]]
+repo = "rhysd/git-messenger.vim"
+
+# Git conflict
+[[plugins]]
+repo = "rhysd/conflict-marker.vim"
+
+# Search
+[[plugins]]
+repo = "Shougo/denite.nvim"
+
+[[plugins]]
+repo = "sheerun/vim-polyglot"
+
+# Typescript
+[[plugins]]
+repo = "leafgarland/typescript-vim"
+
+[[plugins]]
+repo = "pangloss/vim-javascript"
+
+[[plugins]]
+repo = "maxmellon/vim-jsx-pretty"
+
+# LSP
+[[plugins]]
+repo = "Shougo/deoplete.nvim"
+hook_add = '''
+  let g:deoplete#enable_at_startup = 1
+'''
+
+[[plugins]]
+repo = "autozimu/LanguageClient-neovim"
+rev = "next"
+build = "bash install.sh"
+hook_add = '''
+  let g:LanguageClient_serverCommands = {
+    \ "c": ["clangd"],
+    \ "ruby": ["solargraph", "stdio"],
+    \ "python": ["~/.local/bin/pyls"],
+    \ }
+  nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+  nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+  nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+'''
+
+[[plugins]]
+repo = "liuchengxu/vista.vim"
+hook_add = '''
+  let g:vista_default_executive = "ctags"
+  map <C-t> :Vista!!<CR>
+'''
+
+[[plugins]]
+repo = "junegunn/fzf.vim"
+hook_add = '''
+  set rtp+=/usr/bin/fzf
+'''
+
+[[plugins]]
+repo = "junegunn/goyo.vim"

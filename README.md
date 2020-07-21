@@ -1,5 +1,6 @@
-# personal dotfiles
+# dotfiles
 
 ```sh
+# Deploy
 stow -S zsh ...
 ```
