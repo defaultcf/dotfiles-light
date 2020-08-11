@@ -21,13 +21,7 @@ setopt share_history
 autoload -Uz compinit && compinit
 zstyle ":completion:*" menu select
 zstyle ":completion:*" matcher-list "m:{a-z}={A-Z}"
-
-# zinit
-if [[ ! -d ~/.zinit ]]; then
-  mkdir ~/.zinit
-  git clone --depth 1 https://github.com/zdharma/zinit.git ~/.zinit/bin
-fi
-source ~/.zinit/bin/zinit.zsh
+autoload -U bashcompinit && bashcompinit
 
 for file in ~/.zshrc.d/*; do
   source $file

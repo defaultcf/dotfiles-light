@@ -1,3 +1,9 @@
+if [[ ! -d ~/.zinit ]]; then
+  mkdir ~/.zinit
+  git clone --depth 1 https://github.com/zdharma/zinit.git ~/.zinit/bin
+fi
+source ~/.zinit/bin/zinit.zsh
+
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
 
