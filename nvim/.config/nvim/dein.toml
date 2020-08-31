@@ -132,6 +132,9 @@ hook_add = '''
 repo = "liuchengxu/vista.vim"
 hook_add = '''
   let g:vista_default_executive = "ctags"
+  let g:vista_executive_for = {
+  \ 'typescriptreact': 'lcn',
+  \ }
   map <C-t> :Vista!!<CR>
 '''
 

@@ -27,6 +27,8 @@ for file in ~/.zshrc.d/*; do
   source $file
 done
 
-if [[ -f ~/.zshrc_local ]]; then
-  source ~/.zshrc_local
+if [[ -d ~/.zshrc_local.d ]]; then
+  for file in ~/.zshrc_local.d/*; do
+    source $file
+  done
 fi
