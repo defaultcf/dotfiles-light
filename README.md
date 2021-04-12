@@ -7,6 +7,6 @@
 - tmux
 
 ```sh
-# Deploy
+# Deploy dotfiles
 stow -S zsh ...
 ```

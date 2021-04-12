@@ -18,7 +18,7 @@ setopt hist_reduce_blanks
 setopt share_history
 
 # Completion
-autoload -Uz compinit && compinit
+autoload -Uz compinit && compinit -i
 zstyle ":completion:*" menu select
 zstyle ":completion:*" matcher-list "m:{a-z}={A-Z}"
 autoload -U bashcompinit && bashcompinit

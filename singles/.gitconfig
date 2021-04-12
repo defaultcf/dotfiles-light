@@ -1,7 +1,7 @@
 [user]
-  name = i544c
-  email = leo@i544c.me
-  signingkey = Leo Sato <leo@i544c.me>
+  name = Sato Reo
+  email = sato_reo@giginc.co.jp
+  signingkey = Sato Reo <sato_reo@giginc.co.jp>
 
 [core]
   editor = nvim
