@@ -74,11 +74,6 @@ alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
 
-alt - left  : yabai -m window --focus west
-alt - down  : yabai -m window --focus south
-alt - up    : yabai -m window --focus north
-alt - right : yabai -m window --focus east
-
 # Resize window
 alt + shift - h : yabai -m window --resize left:-50:0; \
                   yabai -m window --resize right:-50:0
@@ -91,10 +86,17 @@ alt + shift - l : yabai -m window --resize right:50:0; \
                   yabai -m window --resize left:50:0
 
 # Swap window
-alt + shift - left  : yabai -m window --swap west
-alt + shift - down  : yabai -m window --swap south
-alt + shift - up    : yabai -m window --swap north
-alt + shift - right : yabai -m window --swap east
+alt + ctrl - h : yabai -m window --swap west
+alt + ctrl - j : yabai -m window --swap south
+alt + ctrl - k : yabai -m window --swap north
+alt + ctrl - l : yabai -m window --swap east
 
-# focus recent display
-alt - z  : yabai -m display --focus recent
+# cmd + ;  focus recent display
+alt - 0x29 : yabai -m display --focus recent
+
+# cmd + ,  toggle float
+alt - 0x2F : yabai -m window --toggle float
+
+# cmd + .  toggle float center
+alt - 0x2B : yabai -m window --toggle float; \
+             yabai -m window --grid 4:4:1:1:2:2
