@@ -29,7 +29,7 @@ for file in ~/.zshrc.d/*; do
 done
 
 if [[ -d ~/.zshrc_local.d ]]; then
-  for file in ~/.zshrc_local.d/*; do
+  for file in ~/.zshrc_local.d/*.zsh; do
     source $file
   done
 fi
