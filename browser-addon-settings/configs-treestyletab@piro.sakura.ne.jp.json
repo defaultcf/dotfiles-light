@@ -1,0 +1,18 @@
+{
+  "autoCollapseExpandSubtreeOnAttach": false,
+  "autoCollapseExpandSubtreeOnSelect": false,
+  "style": "photon",
+  "syncDeviceInfo": {
+    "timestamp": 1622683653655
+  },
+  "syncDevices": {
+    "undefined": {
+      "timestamp": 1622683652634
+    }
+  },
+  "syncDevicesLocalCache": {
+    "undefined": {
+      "timestamp": 1622683652983
+    }
+  }
+}
