@@ -1,0 +1,61 @@
+{
+    "enabled": true,
+    "theme": {
+        "mode": 1,
+        "brightness": 100,
+        "contrast": 100,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": false,
+        "fontFamily": "Helvetica Neue",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "#181a1b",
+        "darkSchemeTextColor": "#e8e6e3",
+        "lightSchemeBackgroundColor": "#dcdad7",
+        "lightSchemeTextColor": "#181a1b",
+        "scrollbarColor": "",
+        "selectionColor": "auto",
+        "styleSystemControls": true
+    },
+    "presets": [],
+    "customThemes": [],
+    "siteList": [
+        "docs.google.com",
+        "www.sfbs.co.jp",
+        "daikanyamalaw.com",
+        "mail.google.com",
+        "discord.com",
+        "app.slack.com",
+        "www.google.com",
+        "giginc.atlassian.net",
+        "app.mabl.com",
+        "ap-northeast-1.console.aws.amazon.com",
+        "www.site24x7.com",
+        "symfoware.blog.fc2.com",
+        "news.google.com",
+        "*.hateblo.jp",
+        "jamboard.google.com",
+        "www.youtube.com",
+        "asdf-vm.com"
+    ],
+    "siteListEnabled": [],
+    "applyToListedOnly": false,
+    "changeBrowserTheme": false,
+    "notifyOfNews": false,
+    "syncSettings": true,
+    "syncSitesFixes": false,
+    "automation": "",
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    },
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "previewNewDesign": true,
+    "enableForPDF": true,
+    "enableForProtectedPages": false
+}
