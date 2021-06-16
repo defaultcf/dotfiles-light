@@ -79,26 +79,28 @@
       "type": "scroll.end"
     },
     "d": {
-      "type": "tabs.close",
-      "select": "right"
+      "type": "scroll.vertically",
+      "count": 5
     },
     "D": {
       "type": "tabs.close",
       "select": "left"
     },
-    "x$": {
-      "type": "tabs.close.right"
+    "x": {
+      "type": "tabs.close",
+      "select": "left"
     },
     "!d": {
       "type": "tabs.close.force"
     },
     "u": {
-      "type": "tabs.reopen"
+      "type": "scroll.vertically",
+      "count": -5
     },
-    "gT": {
+    "K": {
       "type": "tabs.prev"
     },
-    "gt": {
+    "J": {
       "type": "tabs.next"
     },
     "g0": {
