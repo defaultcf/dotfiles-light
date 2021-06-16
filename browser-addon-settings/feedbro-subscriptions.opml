@@ -103,6 +103,8 @@
             xmlUrl="https://medium.com/feed/@netflixtechblog" htmlUrl="https://medium.com/@netflixtechblog?source=rss-c3aeaf49d8a4------2"/>
       <outline text="nttlabs - Medium" title="nttlabs - Medium" type="rss" 
             xmlUrl="https://medium.com/feed/nttlabs" htmlUrl="https://medium.com/nttlabs?source=rss----74f667786e9f---4"/>
+      <outline text="Raksul ENGINEERING" title="Raksul ENGINEERING" type="rss" 
+            xmlUrl="https://tech.raksul.com/feed/" htmlUrl="https://tech.raksul.com"/>
       <outline text="recruit - PSYENCE:MEDIA" title="PSYENCE:MEDIA" type="rss" 
             xmlUrl="https://tech.recruit-mp.co.jp/feed/" htmlUrl="https://tech.recruit-mp.co.jp"/>
       <outline text="recruit - Recruit Engineer" title="recruit - Recruit Engineer" type="rss" 
@@ -123,6 +125,8 @@
             xmlUrl="https://techracho.bpsinc.jp//feed" htmlUrl="https://techracho.bpsinc.jp"/>
       <outline text="Yahoo! JAPAN Tech Blog" title="Yahoo! JAPAN Tech Blog" type="rss" 
             xmlUrl="https://techblog.yahoo.co.jp/atom.xml" htmlUrl="https://techblog.yahoo.co.jp/"/>
+      <outline text="エンジニアHub｜Webエンジニアのキャリアを考える！" title="エンジニアHub｜Webエンジニアのキャリアを考える！" type="rss" 
+            xmlUrl="https://rss.app/feeds/Kpnqq8Q5Y4kIq7JY.xml" htmlUrl="https://eh-career.com/engineerhub/"/>
       <outline text="カンムテックブログ" title="カンムテックブログ" type="rss" 
             xmlUrl="https://tech.kanmu.co.jp/feed"/>
       <outline text="クックパッド開発者ブログ" title="クックパッド開発者ブログ" type="rss" 
