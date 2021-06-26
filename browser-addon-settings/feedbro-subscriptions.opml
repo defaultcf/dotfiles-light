@@ -85,8 +85,8 @@
             xmlUrl="https://simplearchitect.hatenablog.com/feed"/>
       <outline text="川口耕介のブログ" title=" | 川口耕介のブログ" type="rss" 
             xmlUrl="https://ja.kohsuke.org/feed/" htmlUrl="https://ja.kohsuke.org"/>
-      <outline text="結城浩の日記" title="結城浩の日記" type="rss" 
-            xmlUrl="https://www.hyuki.com/d/rss.xml" htmlUrl="https://www.hyuki.com/d/"/>
+      <outline text="結城浩のメール日記" title="結城浩のメール日記" type="rss" 
+            xmlUrl="https://diary.hyuki.net/feed/" htmlUrl="https://diary.hyuki.net"/>
       <outline text="絶品ゆどうふのタレ" title="絶品ゆどうふのタレ" type="rss" 
             xmlUrl="https://yudoufu.hatenablog.jp/feed"/>
       <outline text="覚書" title="覚書" type="rss" 
