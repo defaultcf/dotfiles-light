@@ -13,7 +13,7 @@
     "check-delay": 30000,
     "click": "click.popup",
     "faqs": true,
-    "favicon": false,
+    "favicon": true,
     "favicon-delay": 500,
     "force.hostnames": [],
     "form": true,
@@ -33,7 +33,7 @@
     "page.context": false,
     "period": 1800,
     "pinned": true,
-    "prepends": "💤",
+    "prepends": "",
     "simultaneous-jobs": 10,
     "startup-pinned": false,
     "startup-release-pinned": false,
@@ -51,6 +51,6 @@
   },
   "localStorage": {
     "click": "popup",
-    "explore-count": "101"
+    "explore-count": "95"
   }
 }
