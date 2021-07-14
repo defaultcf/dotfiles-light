@@ -3,6 +3,9 @@
   email = sato_reo@giginc.co.jp
   signingkey = Sato Reo <sato_reo@giginc.co.jp>
 
+[init]
+	defaultBranch = main
+
 [core]
   editor = nvim
 
