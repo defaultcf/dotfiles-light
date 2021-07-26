@@ -1,5 +1,5 @@
 set main-options = --exclude=refs/stash --all
-set main-view = date:display=custom,format="%y/%m/%d %H:%M" author:maxwidth=8 commit-title:graph=v2,refs=yes
+set main-view = date:display=custom,format="%y%m%d %H%M" author:maxwidth=6 commit-title:graph=v2,refs=yes
 set diff-highlight = true
 
 bind generic g move-first-line

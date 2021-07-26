@@ -191,6 +191,8 @@
             xmlUrl="https://isucon.net/index.rdf" htmlUrl="https://isucon.net/"/>
       <outline text="KAYAC engineers&#39; blog" title="KAYAC engineers&#39; blog" type="rss" 
             xmlUrl="https://techblog.kayac.com/feed"/>
+      <outline text="LINE ENGINEERING BLOG" title="LINE ENGINEERING BLOG" type="rss" 
+            xmlUrl="https://engineering.linecorp.com/ja/feed/" htmlUrl="https://engineering.linecorp.com/ja/"/>
       <outline text="mercan" title="mercan" type="rss" 
             xmlUrl="https://mercan.mercari.com/feed.xml" htmlUrl="https://mercan.mercari.com/feed.xml"/>
       <outline text="mixi developers - Medium" title="mixi developers - Medium" type="rss" 
@@ -205,6 +207,8 @@
             xmlUrl="https://medium.com/feed/nttlabs" htmlUrl="https://medium.com/nttlabs?source=rss----74f667786e9f---4"/>
       <outline text="PLAID Engineer Blog" title="PLAID Engineer Blog" type="rss" 
             xmlUrl="https://tech.plaid.co.jp/rss/" htmlUrl="https://tech.plaid.co.jp/"/>
+      <outline text="Quipper Product Team Blog" title="Quipper Product Team Blog" type="rss" 
+            xmlUrl="https://quipper.hatenablog.com/feed"/>
       <outline text="Raksul ENGINEERING" title="Raksul ENGINEERING" type="rss" 
             xmlUrl="https://tech.raksul.com/feed/" htmlUrl="https://tech.raksul.com"/>
       <outline text="recruit - PSYENCE:MEDIA" title="PSYENCE:MEDIA" type="rss" 
@@ -245,6 +249,8 @@
             xmlUrl="https://hatenanews.com/feed"/>
       <outline text="エス・エム・エス キャリア開発グループ Tech Blog" title="エス・エム・エス キャリア開発グループ Tech Blog" type="rss" 
             xmlUrl="https://techblog.sms-c.co.jp//feed" htmlUrl="https://techblog.sms-c.co.jp"/>
+      <outline text="エニグモ開発者ブログ" title="エニグモ開発者ブログ" type="rss" 
+            xmlUrl="https://tech.enigmo.co.jp/feed"/>
       <outline text="エンジニアHub" title="エンジニアHub" type="rss" 
             xmlUrl="http://eh-career.com/feed/index.xml" htmlUrl="https://eh-career.com/engineerhub/"/>
       <outline text="カンムテックブログ" title="カンムテックブログ" type="rss" 
