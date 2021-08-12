@@ -89,6 +89,8 @@
             xmlUrl="https://t-wada.hatenablog.jp/feed"/>
       <outline text="tomoima525&#39;s blog" title="tomoima525&#39;s blog" type="rss" 
             xmlUrl="https://tomoima525.hatenablog.com/feed"/>
+      <outline text="Uchio Kondo" title="Uchio Kondo" type="rss" 
+            xmlUrl="https://note.com/udzura/rss" htmlUrl="https://note.com/udzura"/>
       <outline text="UX MILK" title="UX MILK" type="rss" 
             xmlUrl="https://uxmilk.jp/feed" htmlUrl="https://uxmilk.jp"/>
       <outline text="valid,invalid" title="valid,invalid" type="rss" 
@@ -123,12 +125,12 @@
             xmlUrl="https://c5meru.hatenablog.jp/feed"/>
       <outline text="らくがきちょう" title="らくがきちょう" type="rss" 
             xmlUrl="https://sig9.hatenablog.com/feed"/>
-      <outline text="コトリ式" title="コトリ式" type="rss" 
-            xmlUrl="https://kotori.style/rss" htmlUrl="https://kotori.style/notes"/>
       <outline text="ブログのしゅーくりーむ" title="ブログのしゅーくりーむ" type="rss" 
             xmlUrl="https://syucream.hatenablog.jp/feed"/>
       <outline text="メソッド屋のブログ" title="メソッド屋のブログ" type="rss" 
             xmlUrl="https://simplearchitect.hatenablog.com/feed"/>
+      <outline text="ローファイ日記" title="ローファイ日記" type="rss" 
+            xmlUrl="https://udzura.hatenablog.jp/feed"/>
       <outline text="下林明正のブログ" title="下林明正のブログ" type="rss" 
             xmlUrl="https://shimobayashi.hatenablog.com/feed"/>
       <outline text="今夜はいやほい" title="今夜はいやほい" type="rss" 
@@ -143,8 +145,6 @@
             xmlUrl="https://ja.kohsuke.org/feed/" htmlUrl="https://ja.kohsuke.org"/>
       <outline text="本の虫" title="本の虫" type="rss" 
             xmlUrl="https://cpplover.blogspot.com/feeds/posts/default" htmlUrl="https://cpplover.blogspot.com/"/>
-      <outline text="柴田史郎" title="柴田史郎" type="rss" 
-            xmlUrl="https://note.com/4bata/rss" htmlUrl="https://note.com/4bata"/>
       <outline text="栗林健太郎" title="栗林健太郎" type="rss" 
             xmlUrl="https://kentarokuribayashi.com//feed" htmlUrl="https://kentarokuribayashi.com"/>
       <outline text="狐の王国" title="狐の王国" type="rss" 
@@ -231,6 +231,8 @@
             xmlUrl="https://tech.misoca.jp/feed"/>
       <outline text="mixi developers - Medium" title="mixi developers - Medium" type="rss" 
             xmlUrl="https://medium.com/feed/mixi-developers" htmlUrl="https://mixi-developers.mixi.co.jp?source=rss----bc6b0ae5a97c---4"/>
+      <outline text="Mobile Factory Tech Blog" title="Mobile Factory Tech Blog" type="rss" 
+            xmlUrl="https://tech.mobilefactory.jp/feed"/>
       <outline text="Moneyforward - Engineers&#39; Blog" title="Engineers&#39; Blog" type="rss" 
             xmlUrl="https://moneyforward.com/engineers_blog/feed/" htmlUrl="https://moneyforward.com/engineers_blog"/>
       <outline text="MonotaRO Tech Blog" title="MonotaRO Tech Blog" type="rss" 
