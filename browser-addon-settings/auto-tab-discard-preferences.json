@@ -20,7 +20,6 @@
     "go-hidden": false,
     "idle": false,
     "idle-timeout": 300,
-    "last-update": 1620573006428,
     "link.context": true,
     "log": false,
     "max.single.discard": 50,
@@ -31,7 +30,7 @@
     "number": 6,
     "online": false,
     "page.context": false,
-    "period": 1800,
+    "period": 600,
     "pinned": true,
     "prepends": "",
     "simultaneous-jobs": 10,
@@ -43,14 +42,15 @@
     "use-cache": false,
     "whitelist": [
       "app.slack.com",
+      "mail.google.com",
       "calendar.google.com",
-      "mail.google.com"
+      "re:.*\\.youtube\\.com"
     ],
     "whitelist-url": [],
     "whitelist.session": []
   },
   "localStorage": {
     "click": "popup",
-    "explore-count": "95"
+    "explore-count": "99"
   }
 }

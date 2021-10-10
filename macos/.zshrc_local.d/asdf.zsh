@@ -3,3 +3,5 @@ if type brew &>/dev/null; then
 
   export RUST_WITHOUT=rust-docs,rust-other-component
 fi
+
+export PATH="/opt/homebrew/opt/bison/bin:$PATH"
