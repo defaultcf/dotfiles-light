@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1631845336447",
+        "schema": 1,
+        "enabled": true,
+        "fallthrough": true,
+        "name": "Mute",
+        "trigger": "1",
+        "contexttype": "3",
+        "contextvalue": [
+            "127",
+            "393",
+            "368",
+            "369",
+            "367",
+            "338",
+            "389"
+        ],
+        "match": "1",
+        "conditions": [],
+        "actions": [
+            {
+                "type": "5",
+                "value": ""
+            }
+        ],
+        "contextvaluetext": [
+            "https://dev.classmethod.jp//feed",
+            "https://bitbucket.status.atlassian.com/history.atom",
+            "https://discordstatus.com/history.atom",
+            "https://status.slack.com/feed/atom",
+            "https://www.sakura.ad.jp/rss/mainte.rdf",
+            "https://panora.tokyo/feed",
+            "https://crd.ndl.go.jp/jp/public/rss2/rss.xml"
+        ]
+    },
+    {
+        "id": "1631845357570",
+        "schema": 1,
+        "enabled": true,
+        "fallthrough": true,
+        "name": "VTuber",
+        "trigger": "1",
+        "contexttype": "2",
+        "contextvalue": [
+            "251"
+        ],
+        "match": "1",
+        "conditions": [],
+        "actions": [
+            {
+                "type": "1",
+                "value": ""
+            },
+            {
+                "type": "5",
+                "value": ""
+            }
+        ],
+        "contextvaluetext": [
+            "YouTube"
+        ]
+    },
+    {
+        "id": "1641286094175",
+        "schema": 1,
+        "enabled": true,
+        "fallthrough": true,
+        "name": "Notice",
+        "trigger": "1",
+        "contexttype": "3",
+        "contextvalue": [
+            "339",
+            "340",
+            "341",
+            "335",
+            "336"
+        ],
+        "match": "1",
+        "conditions": [],
+        "actions": [
+            {
+                "type": "1",
+                "value": ""
+            }
+        ],
+        "contextvaluetext": [
+            "https://note.com/vweclub/m/m228b2ab11d77/rss",
+            "https://note.com/muddypuddles/m/m1f0471215531/rss",
+            "https://note.com/tanigo/rss",
+            "https://null.style/feed",
+            "https://vr-lifemagazine.com/feed/"
+        ]
+    }
+]
