@@ -104,12 +104,26 @@ repo = "pangloss/vim-javascript"
 repo = "maxmellon/vim-jsx-pretty"
 
 # LSP
+#[[plugins]]
+#repo = "Shougo/deoplete.nvim"
+#hook_add = '''
+#  let g:deoplete#enable_at_startup = 1
+#  let g:python3_host_prog = expand('~/.asdf/shims/python3')
+#'''
+
+#[[plugins]]
+#repo = "Shougo/ddc.vim"
+#hook_add = '''
+#  inoremap <silent><expr> <TAB>
+#    \ pumvisible() ? '<C-n>' :
+#    \ (col('.') <= 1 <Bar><Bar> getline('.')[col('.') - 2] =~# '\s') ?
+#    \ '<TAB>' : ddc#map#manual_complete()
+#  inoremap <expr><S-TAB>  pumvisible() ? '<C-p>' : '<C-h>'
+#  call ddc#enable()
+#'''
+
 [[plugins]]
-repo = "Shougo/deoplete.nvim"
-hook_add = '''
-  let g:deoplete#enable_at_startup = 1
-  let g:python3_host_prog = expand('~/.asdf/shims/python3')
-'''
+repo = "vim-denops/denops.vim"
 
 [[plugins]]
 repo = "autozimu/LanguageClient-neovim"
@@ -120,6 +134,7 @@ hook_add = '''
     \ "c": ["clangd"],
     \ "ruby": ["solargraph", "stdio"],
     \ "python": ["~/.local/bin/pyls"],
+    \ "rust": ["rust-analyzer"],
     \ "javascript": ["typescript-language-server", "--stdio"],
     \ "typescript": ["typescript-language-server", "--stdio"],
     \ "typescriptreact": ["typescript-language-server", "--stdio"],
