@@ -1,0 +1,45 @@
+/* Hide horizontal tabs at the top of the window */
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar .titlebar-spacer {
+        border-inline-end: none;
+}
+
+/* Hide top bar and move close, minimize, restore buttons to top left (MacOS Big Sur, Firefox 89+) */
+#titlebar {
+  appearance: none !important;
+  height: 0px;
+}
+#titlebar > #toolbar-menubar {
+  margin-top: 0px;
+}
+#TabsToolbar {
+  min-width: 0 !important;
+  min-height: 0 !important;
+}
+#TabsToolbar > .titlebar-buttonbox-container {
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 0px;
+}
+
+/* Hide the "Tree Style Tab" header at the top of the sidebar */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+/* Space for traffic light buttons */
+#nav-bar-customization-target {
+  padding-left: 70px;
+}
+
+/* For dark reader */
+#tabbrowser-tabpanels {
+  background: var(--toolbar-bgcolor) !important;
+}

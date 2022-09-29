@@ -1,0 +1,13 @@
+feedbro
+firefox color
+firefox translations
+https everywhere
+noscript
+pageprobe
+tab session manager
+tabliss
+tomato clock
+tree style tab
+ublacklist
+vimium
+violentmonkey
